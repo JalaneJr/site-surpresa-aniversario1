@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa de Aniversário</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Surpresa de Aniversário!</h1>
+    </header>
+    
+    <div class="profile-image"></div> <!-- Imagem circular -->
+
+    <div class="panels-container">
+        <div class="painel-container">
+            <div class="painel painel-1" onclick="showDetails(1)">Cartoes Virtuais</div>
+            <div class="painel painel-2" onclick="showDetails(2)">Mensagens do Dia</div>
+            <div class="painel painel-3" onclick="showDetails(3)">Vídeos de Aniversário</div>
+            <div class="painel painel-4" onclick="showDetails(4)">Músicas de Aniversário</div>
+            <div class="painel painel-5" onclick="showDetails(5)">Receitas para o Aniversário</div>
+            <div class="painel painel-6" onclick="showDetails(6)">Jogos e Atividades</div>
+        </div>
+    </div>
+    <div class="details-container">
+        <div id="details" class="details">
+            <div class="map-container">
+                <div id="map">
+                    <div class="point" id="level1" onclick="showPanel(1)"><imagens src="1.png" alt="Nível 1"></div>
+                    <div class="point" id="level2" onclick="showPanel(2)"><imagens src="2.png" alt="Nível 2"></div>
+                    <div class="point" id="level3" onclick="showPanel(3)"><imagens src="3.png" alt="Nível 3"></div>
+                    <div class="point" id="level4" onclick="showPanel(4)"><imagens src="4.png" alt="Nível 4"></div>
+                    <div class="point" id="level5" onclick="showPanel(5)"><imagens src="5.png" alt="Nível 5"></div>
+                    <div class="point" id="level6" onclick="showPanel(6)"><imagens src="6.png" alt="Nível 6"></div>
+                    <div class="point" id="level7" onclick="showPanel(7)"><imagens src="7.png" alt="Nível 7"></div>
+                    <div class="point" id="level8" onclick="showPanel(8)"><imagens src="8.png" alt="Nível 8"></div>
+                    <div class="point" id="level9" onclick="showPanel(9)"><imagens src="c1.png" alt="Nível 9"></div>
+                    <div class="point" id="level10" onclick="showPanel(10)"><imagens src="c2.png" alt="Nível 10"></div>
+                    <div class="point" id="level11" onclick="showPanel(11)"><imagens src="c3.png" alt="Nível 11"></div>
+                    <div class="point" id="level12" onclick="showPanel(12)"><imagens src="c4.png" alt="Nível 12"></div>
+                    <div class="point" id="level13" onclick="showPanel(13)"><imagens src="c5.png" alt="Nível 13"></div>
+                    <div class="point" id="level14" onclick="showPanel(14)"><imagens src="c2.png" alt="Nível 14"></div>
+                    <div class="point" id="level15" onclick="showPanel(15)"><imagens src="4.png" alt="Nível 15"></div>
+                    <div class="point" id="level16" onclick="showPanel(16)"><imagens src="6.png" alt="Nível 16"></div>
+                    <div class="point" id="level17" onclick="showPanel(17)"><imagens src="7.png" alt="Nível 17"></div>
+                    <div class="point" id="level18" onclick="showPanel(18)"><imagens src="c1.png" alt="Nível 18"></div>
+                    <div class="point" id="level19" onclick="showPanel(19)"><imagens src="4.png" alt="Nível 19"></div>
+                    <div class="point" id="level20" onclick="showPanel(20)"><imagens src="3.png" alt="Nível 20"></div>
+                </div>
+                <div id="details-panel" class="details-panel"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="details-container">
+        <div id="details" class="details"></div>
+    </div>
+
+
+</html>
